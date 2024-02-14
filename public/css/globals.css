@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --dark-blue: 19, 41, 61;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--dark-blue));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.text-fill-color-transparent {
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+:is(.swiper-button-prev, .swiper-button-next) {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #ffffff;
+  border-width: 1px;
+  position: absolute;
+  bottom: 4px;
+}
+
+.swiper-button-prev {
+  right: 5em;
+}
+
+.swiper-button-next {
+  right: 1em;
+}
+
+.swiper-button-prev:before,
+.swiper-button-next:after {
+  border-style: solid;
+  border-width: 0.2em 0.2em 0 0;
+  border-color: #ffffff;
+  content: "";
+  display: inline-block;
+  height: 0.55em;
+  position: relative;
+  vertical-align: top;
+  width: 0.55em;
+}
+
+.swiper-button-prev:before {
+  transform: rotate(-135deg);
+}
+
+.swiper-button-next:after {
+  transform: rotate(45deg);
+}
