@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Maven_Pro } from "next/font/google";
 import "@/public/css/globals.css";
-import { Header } from "../src/components/Header";
+import { Header } from "./components/Header";
 import 'swiper/css';
 
 const mavenPro = Maven_Pro({ subsets: ["latin"], weight: "400" });

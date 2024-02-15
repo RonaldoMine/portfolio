@@ -3,7 +3,7 @@
 import SingleEducationComponent from "./components/SingleEducationComponent";
 import SingleExperienceComponent from "./components/SingleExperienceComponent";
 import { experienceDatas, educationDatas } from "./datas";
-import ContentSectionComponent from "@/src/components/ContentSectionComponent";
+import ContentSectionComponent from "@/app/components/ContentSectionComponent";
 
 export default function Experience() {
   return (

@@ -3,7 +3,7 @@
 import HeadingHomeComponent from "./components/HeadingHomeComponent";
 import SingleProjectComponent from "./components/SingleProjectComponent";
 import Image from "next/image";
-import ContentSectionComponent from "@/src/components/ContentSectionComponent";
+import ContentSectionComponent from "@/app/components/ContentSectionComponent";
 import {
   frontendToolsImages,
   backendToolsImages,

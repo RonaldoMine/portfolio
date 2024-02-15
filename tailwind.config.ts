@@ -5,7 +5,6 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -17,6 +16,7 @@ const config: Config = {
       colors: {
         red: "#EB4A4A",
         "pussian-blue": "#13293D",
+        "alice-blue": "#E8F1F2",
       },
       screens: {
         xs: "475px",
