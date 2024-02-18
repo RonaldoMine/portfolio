@@ -18,6 +18,7 @@ export function Header() {
           type="checkbox"
           name="menu"
           id="menu"
+          aria-label="Menu"
           className="appearance-none peer sm:hidden"
         />
         <div className="hidden flex-col gap-6 absolute z-50 top-14 bg-white py-6 px-10 transition-all duration-500 ease-in peer-checked:flex sm:top-0 sm:flex sm:p-0 sm:bg-transparent sm:flex-row sm:gap-10 sm:relative">
