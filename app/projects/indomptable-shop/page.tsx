@@ -11,27 +11,27 @@ export default function IndomptableShop() {
   const tools = [
     {
       title: "NextJS",
-      img: "/images/tools/nextjs-round.png",
+      img: "/images/tools/nextjs-round.webp",
     },
     {
       title: "Typescript",
-      img: "/images/tools/typescript-round.png",
+      img: "/images/tools/typescript-round.webp",
     },
     {
       title: "Tailwind",
-      img: "/images/tools/tailwind-round.png",
+      img: "/images/tools/tailwind-round.webp",
     },
     {
       title: "Vercel",
-      img: "/images/tools/vercel-round.png",
+      img: "/images/tools/vercel-round.webp",
     },
     {
       title: "Sanity",
-      img: "/images/tools/sanity-round.png",
+      img: "/images/tools/sanity-round.webp",
     },
     {
       title: "Git",
-      img: "/images/tools/git-round.png",
+      img: "/images/tools/git-round.webp",
     },
   ];
 
@@ -176,7 +176,7 @@ export default function IndomptableShop() {
       <section className="text-center">
         <div className="flex flex-col gap-10 mb-20">
           <Image
-            src={"/images/projects/indomptable-shop/logo.png"}
+            src={"/images/projects/indomptable-shop/logo.webp"}
             alt="Logo Indomptable"
             width={150}
             height={150}

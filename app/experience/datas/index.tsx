@@ -7,19 +7,19 @@ export const experienceDatas = [
     tools: [
       {
         title: "PHP",
-        img: "/images/tools/php-round.png",
+        img: "/images/tools/php-round.webp",
       },
       {
         title: "Tailwind",
-        img: "/images/tools/tailwind-round.png",
+        img: "/images/tools/tailwind-round.webp",
       },
       {
         title: "Git",
-        img: "/images/tools/git-round.png",
+        img: "/images/tools/git-round.webp",
       },
       {
         title: "AWS",
-        img: "/images/tools/aws-round.png",
+        img: "/images/tools/aws-round.webp",
       },
     ],
     missions: [],
@@ -34,59 +34,59 @@ export const experienceDatas = [
     tools: [
       {
         title: "React",
-        img: "/images/tools/react-round.png",
+        img: "/images/tools/react-round.webp",
       },
       {
         title: "Tailwind",
-        img: "/images/tools/tailwind-round.png",
+        img: "/images/tools/tailwind-round.webp",
       },
       {
         title: "Typescript",
-        img: "/images/tools/typescript-round.png",
+        img: "/images/tools/typescript-round.webp",
       },
       {
         title: "Java",
-        img: "/images/tools/java-round.png",
+        img: "/images/tools/java-round.webp",
       },
       {
         title: "Springboot",
-        img: "/images/tools/spring-boot-round.png",
+        img: "/images/tools/spring-boot-round.webp",
       },
       {
         title: "PHP",
-        img: "/images/tools/php-round.png",
+        img: "/images/tools/php-round.webp",
       },
       {
         title: "Laravel",
-        img: "/images/tools/laravel-round.png",
+        img: "/images/tools/laravel-round.webp",
       },
       {
         title: "HTML",
-        img: "/images/tools/html-round.png",
+        img: "/images/tools/html-round.webp",
       },
       {
         title: "CSS",
-        img: "/images/tools/css-round.png",
+        img: "/images/tools/css-round.webp",
       },
       {
         title: "Git",
-        img: "/images/tools/git-round.png",
+        img: "/images/tools/git-round.webp",
       },
       {
         title: "SQL",
-        img: "/images/tools/sql-round.png",
+        img: "/images/tools/sql-round.webp",
       },
       {
         title: "AWS",
-        img: "/images/tools/aws-round.png",
+        img: "/images/tools/aws-round.webp",
       },
       {
         title: "Redis",
-        img: "/images/tools/redis-round.png",
+        img: "/images/tools/redis-round.webp",
       },
       {
         title: "RabbitMq",
-        img: "/images/tools/rabbit-mq-round.png",
+        img: "/images/tools/rabbit-mq-round.webp",
       },
     ],
     missions: [
@@ -108,31 +108,31 @@ export const experienceDatas = [
     tools: [
       {
         title: "Python",
-        img: "/images/tools/python-round.png",
+        img: "/images/tools/python-round.webp",
       },
       {
         title: "Django",
-        img: "/images/tools/django-round.png",
+        img: "/images/tools/django-round.webp",
       },
       {
         title: "PHP",
-        img: "/images/tools/php-round.png",
+        img: "/images/tools/php-round.webp",
       },
       {
         title: "HTML",
-        img: "/images/tools/html-round.png",
+        img: "/images/tools/html-round.webp",
       },
       {
         title: "CSS",
-        img: "/images/tools/css-round.png",
+        img: "/images/tools/css-round.webp",
       },
       {
         title: "Git",
-        img: "/images/tools/git-round.png",
+        img: "/images/tools/git-round.webp",
       },
       {
         title: "SQL",
-        img: "/images/tools/sql-round.png",
+        img: "/images/tools/sql-round.webp",
       },
     ],
     missions: [
@@ -147,38 +147,38 @@ export const experienceDatas = [
 
   {
     positionTitle: "Web developer",
-    company: "INNOVATIVE SOLUTION SARL",
+    company: "INNOVATIVE SOLUTIONS SARL",
     contractType: "CDI",
     startDate: "11/2018",
     endDate: "09/2019",
     tools: [
       {
         title: "Java",
-        img: "/images/tools/java-round.png",
+        img: "/images/tools/java-round.webp",
       },
       {
         title: "PHP",
-        img: "/images/tools/php-round.png",
+        img: "/images/tools/php-round.webp",
       },
       {
         title: "Laravel",
-        img: "/images/tools/laravel-round.png",
+        img: "/images/tools/laravel-round.webp",
       },
       {
         title: "HTML",
-        img: "/images/tools/html-round.png",
+        img: "/images/tools/html-round.webp",
       },
       {
         title: "CSS",
-        img: "/images/tools/css-round.png",
+        img: "/images/tools/css-round.webp",
       },
       {
         title: "Git",
-        img: "/images/tools/git-round.png",
+        img: "/images/tools/git-round.webp",
       },
       {
         title: "SQL",
-        img: "/images/tools/sql-round.png",
+        img: "/images/tools/sql-round.webp",
       },
     ],
     missions: [
@@ -204,7 +204,7 @@ export const educationDatas = [
   },
   {
     degree: "Baccalaureat",
-    school: "Niété Bilingual High School",
+    school: "Niete Bilingual High School",
     date: "2015/2016",
   },
 ];

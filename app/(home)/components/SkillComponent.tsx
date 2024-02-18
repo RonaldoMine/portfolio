@@ -24,9 +24,9 @@ export default function SkillComponent({ title, description, tools }: Props) {
                 src={tool.src}
                 alt={tool.title}
                 title={tool.title}
-                width={60}
-                height={60}
-                className="object-contain"
+                width={35}
+                height={35}
+                className="object-contain sm:w-14 h-auto"
               />
             );
           })}

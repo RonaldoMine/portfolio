@@ -58,6 +58,8 @@ export default function Home() {
             rank={`${index + 1}`}
             slug={project.slug}
             reverse={index % 2 !== 0}
+            link={project.link}
+            linkText={project.linkText}
           />
         ))}
       </ContentSectionComponent>

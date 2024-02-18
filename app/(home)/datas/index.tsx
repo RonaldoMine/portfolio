@@ -1,59 +1,65 @@
 export const projects = [
   {
-    bg: "/images/projects/check-games-logo.png",
+    bg: "/images/projects/check-games-logo.webp",
     title: "Check Games",
     description:
       "Check Games is a thrilling Cameroonian family card game that combines strategy and quick thinking. The game is designed for up to 8 players, each starting with 4 cards.",
     img: "/images/projects/check-game-deck.jpg",
     slug: "check-game",
+    link: "https://join.rune.ai/game?g=eg",
+    linkText: "Play the game",
   },
   {
-    bg: "/images/projects/cameroon-tribune-logo.png",
+    bg: "/images/projects/cameroon-tribune-logo.webp",
     title: "Cameroon Tribune",
     description:
       "This is a consumer solution developed at NEXAH for the distribution of digital newspapers, for which I was the main technical player.",
     img: "/images/projects/newspaper.jpg",
     slug: "camerron-tribune",
+    link: "https://cameroontribune.com",
+    linkText: "Visit the website",
   },
   {
-    bg: "/images/projects/indomptable-shop/logo.png",
+    bg: "/images/projects/indomptable-shop/logo.webp",
     title: "Indomptable Shop",
     description:
       "Online store promoting INDOMPTABLE brand products, Our principal mission is to inspire people to achive more than they think is POSSIBLE",
     img: "/images/projects/indomptable-shop.jpg",
     slug: "indomptable-shop",
+    link: "https://indomptable-shop.vercel.app/",
+    linkText: "Visit the shop",
   },
 ];
 
 export const frontendToolsImages = [
   {
-    src: "/images/tools/html.png",
+    src: "/images/tools/html.webp",
     title: "HTML",
   },
   {
-    src: "/images/tools/css.png",
+    src: "/images/tools/css.webp",
     title: "CSS",
   },
   {
-    src: "/images/tools/tailwind.png",
+    src: "/images/tools/tailwind.webp",
     title: "Tailwind CSS",
   },
   {
-    src: "/images/tools/typescript.png",
+    src: "/images/tools/typescript.webp",
     title: "Typescript",
   },
   {
-    src: "/images/tools/react.png",
+    src: "/images/tools/react.webp",
     title: "ReactJS",
   },
   {
-    src: "/images/tools/nextjs.png",
+    src: "/images/tools/nextjs.webp",
     title: "NextJS",
   },
 ];
 export const backendToolsImages = [
   {
-    src: "/images/tools/java.png",
+    src: "/images/tools/java.webp",
     title: "Java",
   },
   {
@@ -61,41 +67,41 @@ export const backendToolsImages = [
     title: "Spring Boot",
   },
   {
-    src: "/images/tools/php.png",
+    src: "/images/tools/php.webp",
     title: "Php",
   },
   {
-    src: "/images/tools/laravel.png",
+    src: "/images/tools/laravel.webp",
     title: "Laravel",
   },
 ];
 export const OtherToolsImages = [
   {
-    src: "/images/tools/git.png",
+    src: "/images/tools/git.webp",
     title: "Git",
   },
   {
-    src: "/images/tools/aws.png",
+    src: "/images/tools/aws.webp",
     title: "AWS",
   },
   {
-    src: "/images/tools/vercel.png",
+    src: "/images/tools/vercel.webp",
     title: "Vercel",
   },
   {
-    src: "/images/tools/sql.png",
+    src: "/images/tools/sql.webp",
     title: "Sql",
   },
   {
-    src: "/images/tools/redis.png",
+    src: "/images/tools/redis.webp",
     title: "Redis",
   },
   {
-    src: "/images/tools/rabbit-mq.png",
-    title: "RabbitMQ"
+    src: "/images/tools/rabbit-mq.webp",
+    title: "RabbitMQ",
   },
   {
-    src: "/images/tools/sanity.png",
+    src: "/images/tools/sanity.webp",
     title: "Sanity",
   },
 ];

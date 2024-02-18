@@ -5,32 +5,36 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { galleries, songs } from "./datas";
 import SingleGalleryCardComponent from "./components/SingleGalleryCardComponent";
-import Link from "next/link";
 import SingleSongComponent from "./components/SingleSongComponent";
 
 export default function About() {
   return (
     <>
       <ContentSectionComponent title="Who I am ?" heading="About Me">
-        <p>
-          Lorem ipsum dolor sit amet consectetur. Sed ut lacus nunc vitae at
-          ornare sed rhoncus. Viverra risus sed maecenas tellus diam consequat.
-          A odio enim egestas vel risus vitae et non. Ac leo rhoncus bibendum
-          massa neque. Tempor odio nam eu purus sapien vitae. Urna consequat
-          donec tempus viverra aliquet at fusce pharetra libero Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Eius rerum vel, corporis,
-          at beatae quos numquam aut sit impedit totam, quo dolorem voluptas
-          harum suscipit qui eum commodi placeat animi? Lorem ipsum, dolor sit
-          amet consectetur adipisicing elit. Voluptas neque, facilis modi quo
-          quae amet, laboriosam itaque error, ducimus inventore nesciunt
-          aliquid! Maxime sunt, id obcaecati fuga autem accusantium laborum? Quo
-          ratione et eveniet similique, nemo aut sapiente atque rerum ex placeat
-          architecto! Quod quia, reprehenderit quos quidem velit quisquam est
-          quo odio tempore ab facilis nihil provident in quibusdam. Cupiditate
-          consequatur consequuntur rem amet molestias qui. Excepturi laudantium
-          eum quia, adipisci animi, numquam repellendus eos eaque nisi aliquid
-          corporis officiis suscipit error sunt labore reiciendis quod.
-          Voluptatum, mollitia ullam.
+        <p className="text-justify mb-4">
+          Commonly known as Ronaldo MINE, I&apos;m a young Cameroonian who&apos;s been
+          passionate about technology ever since I was a child. My academic
+          background has enabled me to specialize in web development solutions,
+          with over 5 years of professional experience to my credit.
+        </p>
+        <p className="text-justify mb-4">
+          During my professional career, I was able to adapt easily to the work
+          environment, both with the people and the technologies used, which
+          enabled me to increase my team spirit, develop my perseverance, my
+          analytical mind and thanks to all this I was very quickly able to
+          receive key responsibilities in the development of solutions for these
+          different companies. What&apos;s more, I&apos;ve had to develop applications
+          that have been used by thousands of people in both the professional
+          and personal spheres. My goal is to join a company at the cutting edge
+          of technology and digital innovation, and work together to design
+          quality solutions. This will enable me to gain knowledge and
+          experience around a diverse team focused on excellence, and ultimately
+          build a solid and serene future for myself.
+        </p>
+        <p className="text-justify">
+          Personally, I&apos;m passionate about music, photography, soccer and board
+          games. This allows me to find a balance in my life and share pleasant
+          moments with friends and colleagues.
         </p>
       </ContentSectionComponent>
       <ContentSectionComponent title="Photography" heading="Passion">
@@ -60,12 +64,12 @@ export default function About() {
       </ContentSectionComponent>
 
       <ContentSectionComponent
-        title="Music - My 10 favorites songs"
+        title="Music - 10 favorites songs"
         heading="Passion"
       >
-        <section className="flex max-h-96">
+        <section className="flex sm:max-h-96">
           <Image
-            src={"/images/music/cover.png"}
+            src={"/images/music/cover.webp"}
             height={500}
             width={500}
             alt="Music Cover"

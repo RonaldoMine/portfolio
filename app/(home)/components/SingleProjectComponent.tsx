@@ -9,6 +9,8 @@ type Props = {
   img: string;
   rank: string;
   slug: string;
+  link: string;
+  linkText: string;
   reverse?: boolean;
 };
 
@@ -19,6 +21,8 @@ export default function SingleProjectComponent({
   img,
   rank,
   slug,
+  link,
+  linkText,
   reverse = false,
 }: Props) {
   return (
@@ -55,10 +59,12 @@ export default function SingleProjectComponent({
         <p className="leading-7">{description}</p>
         <div>
           <Link
-            href={`/projects/${slug}`}
+            //href={`/projects/${slug}`}
+            href={link}
+            target="_blank"
             className="bg-red p-3 flex items-center gap-2 w-max"
           >
-            Explore <FaArrowRightLong />
+            {linkText} <FaArrowRightLong />
           </Link>
         </div>
       </div>
