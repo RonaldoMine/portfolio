@@ -55,7 +55,7 @@ export default function SingleProjectComponent({
           <span className="border-b-2 border-red w-10 block"></span>
           <span className="text-red">0{rank}/03</span>
         </div>
-        <h4 className="text-3xl font-bold">{title}</h4>
+        <h3 className="text-3xl font-bold">{title}</h3>
         <p className="leading-7">{description}</p>
         <div>
           <Link

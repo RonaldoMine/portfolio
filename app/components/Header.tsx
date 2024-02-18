@@ -1,9 +1,14 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoMailOutline, IoMenu } from "react-icons/io5";
 import { VscGithub } from "react-icons/vsc";
 
 export function Header() {
+  const pathname = usePathname();
+  console.log(pathname === "/experience");
   return (
     <header className="py-6">
       <div className="flex justify-between items-center mb-1">
@@ -17,13 +22,35 @@ export function Header() {
           className="appearance-none peer sm:hidden"
         />
         <div className="hidden flex-col gap-6 absolute z-50 top-14 bg-white py-6 px-10 transition-all duration-500 ease-in peer-checked:flex sm:top-0 sm:flex sm:p-0 sm:bg-transparent sm:flex-row sm:gap-10 sm:relative">
-          <Link href="/" className="text-red">
+          <Link
+            href="/"
+            className={`${
+              pathname === "/" ? "text-red" : "text-pussian-blue sm:text-white"
+            }`}
+            aria-label="Home Page"
+          >
             Home
           </Link>
-          <Link href="/experience" className="text-pussian-blue sm:text-white">
+          <Link
+            href="/experience"
+            className={`${
+              pathname === "/experience"
+                ? "text-red"
+                : "text-pussian-blue sm:text-white"
+            }`}
+            aria-label="Experience Page"
+          >
             Experience
           </Link>
-          <Link href="/about" className="text-pussian-blue sm:text-white">
+          <Link
+            href="/about"
+            className={`${
+              pathname === "/about"
+                ? "text-red"
+                : "text-pussian-blue sm:text-white"
+            }`}
+            aria-label="About Page"
+          >
             About
           </Link>
         </div>

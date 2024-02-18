@@ -13,7 +13,7 @@ export default function SkillComponent({ title, description, tools }: Props) {
     >
       <div className="bg-gradient-alice p-10 sm:p-20 grid gap-y-5 sm:grid-cols-2 items-center relative">
         <div className="sm:pr-16">
-          <h3 className="font-bold text-xl mb-6">{title}</h3>
+          <h4 className="font-bold text-xl mb-6">{title}</h4>
           <p>{description}</p>
         </div>
         <div className="flex justify-start flex-wrap sm:w-11/12 ml-auto gap-x-10 gap-y-4">

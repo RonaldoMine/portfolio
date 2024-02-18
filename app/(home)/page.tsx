@@ -33,11 +33,11 @@ export default function Home() {
       <section className="text-white border-b-2 border-white relative flex flex-col justify-center my-5 pb-24 mb-24 sm:border-b-0 sm:my-10 sm:border-r-2 sm:w-11/12 sm:py-20">
         <div className="sm:w-2/3">
           <div className="mb-10 sm:mb-32">
-            <h6>Hey there,</h6>
+            <span>Hey there,</span>
             <h1 className="text-5xl font-extrabold leading-[60px] sm:leading-[80px] sm:text-7xl">
               I’m Ronaldo MINE
             </h1>
-            <h6 className="text-red">Full Stack Web Developer</h6>
+            <span className="text-red">Full Stack Web Developer</span>
           </div>
           <ContactButtonComponent />
         </div>

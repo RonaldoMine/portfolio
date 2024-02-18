@@ -4,7 +4,7 @@ export const projects = [
     title: "Check Games",
     description:
       "Check Games is a thrilling Cameroonian family card game that combines strategy and quick thinking. The game is designed for up to 8 players, each starting with 4 cards.",
-    img: "/images/projects/check-game-deck.jpg",
+    img: "/images/projects/check-game-deck.webp",
     slug: "check-game",
     link: "https://join.rune.ai/game?g=eg",
     linkText: "Play the game",
@@ -14,7 +14,7 @@ export const projects = [
     title: "Cameroon Tribune",
     description:
       "This is a consumer solution developed at NEXAH for the distribution of digital newspapers, for which I was the main technical player.",
-    img: "/images/projects/newspaper.jpg",
+    img: "/images/projects/newspaper.webp",
     slug: "camerron-tribune",
     link: "https://cameroontribune.com",
     linkText: "Visit the website",
@@ -24,7 +24,7 @@ export const projects = [
     title: "Indomptable Shop",
     description:
       "Online store promoting INDOMPTABLE brand products, Our principal mission is to inspire people to achive more than they think is POSSIBLE",
-    img: "/images/projects/indomptable-shop.jpg",
+    img: "/images/projects/indomptable-shop.webp",
     slug: "indomptable-shop",
     link: "https://indomptable-shop.vercel.app/",
     linkText: "Visit the shop",
