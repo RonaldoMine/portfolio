@@ -65,7 +65,7 @@ export default function IndomptableShop() {
           <h1 className="text-red text-2xl sm:text-4xl font-bold">
             Indomptable Shop
           </h1>
-          <Link href={"https://indomptable-shop.vercel.app/"} target="_blank">
+          <Link aria-label="Visit the shop" href={"https://indomptable-shop.vercel.app/"} target="_blank">
             <FiExternalLink className="text-red" size={25} />
           </Link>
         </div>
@@ -176,7 +176,7 @@ export default function IndomptableShop() {
       <section className="text-center">
         <div className="flex flex-col gap-10 mb-20">
           <Image
-            src={"/images/projects/indomptable-shop/logo.webp"}
+            src={"/images/projects/indomptable-shop/logo.png"}
             alt="Logo Indomptable"
             width={150}
             height={150}
@@ -187,6 +187,7 @@ export default function IndomptableShop() {
           </h1>
           <div className="mx-auto">
             <Link
+              aria-label="Visit the website"
               href={"https://indomptable-shop.vercel.app/"}
               className="bg-red p-3 flex-shrink-0"
             >

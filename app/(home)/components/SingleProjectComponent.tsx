@@ -55,10 +55,11 @@ export default function SingleProjectComponent({
           <span className="border-b-2 border-red w-10 block"></span>
           <span className="text-red">0{rank}/03</span>
         </div>
-        <h3 className="text-3xl font-bold">{title}</h3>
+        <span className="text-3xl font-bold">{title}</span>
         <p className="leading-7">{description}</p>
         <div>
           <Link
+          aria-label="Project"
             //href={`/projects/${slug}`}
             href={link}
             target="_blank"

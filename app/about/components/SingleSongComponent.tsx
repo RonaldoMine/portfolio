@@ -19,7 +19,7 @@ export default function SingleSongComponent({
   position,
 }: Props) {
   return (
-    <Link href={link} target="_blank">
+    <Link href={link} target="_blank" aria-label="Listening one of my favarite music">
       <div className="flex items-center w-full px-3 gap-4">
         <span className="text-gray-200 hidden sm:block">
           {position < 9 ? `0${position}` : position}.

@@ -20,7 +20,7 @@ export const projects = [
     linkText: "Visit the website",
   },
   {
-    bg: "/images/projects/indomptable-shop/logo.webp",
+    bg: "/images/projects/indomptable-shop/logo.png",
     title: "Indomptable Shop",
     description:
       "Online store promoting INDOMPTABLE brand products, Our principal mission is to inspire people to achive more than they think is POSSIBLE",

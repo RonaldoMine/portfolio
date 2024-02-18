@@ -8,7 +8,6 @@ import { VscGithub } from "react-icons/vsc";
 
 export function Header() {
   const pathname = usePathname();
-  console.log(pathname === "/experience");
   return (
     <header className="py-6">
       <div className="flex justify-between items-center mb-1">
@@ -56,15 +55,24 @@ export function Header() {
         </div>
         <div className="text-white flex gap-4 justify-between sm:mr-8 md:mr-12">
           <Link
+            aria-label="LinkedIn Profile"
             href={"https://linkedin.com/in/ronaldo-mine-764b59195"}
             target="_blank"
           >
             <FaLinkedinIn size={"24"} />
           </Link>
-          <Link href={"https://github.com/RonaldoMine"} target="_blank">
+          <Link
+            aria-label="Github Profile"
+            href={"https://github.com/RonaldoMine"}
+            target="_blank"
+          >
             <VscGithub size={"24"} />
           </Link>
-          <Link href={"mailto:andremine98@gmail.com"} target="_blank">
+          <Link
+            aria-label="Contact by email"
+            href={"mailto:andremine98@gmail.com"}
+            target="_blank"
+          >
             <IoMailOutline size={"24"} />
           </Link>
         </div>
