@@ -8,6 +8,7 @@ import { VscGithub } from "react-icons/vsc";
 
 export function Header() {
   const pathname = usePathname();
+
   return (
     <header className="py-6">
       <div className="flex justify-between items-center mb-1">
@@ -25,7 +26,9 @@ export function Header() {
           <Link
             href="/"
             className={`${
-              pathname === "/" ? "text-red" : "text-pussian-blue sm:text-white"
+              pathname === "/"
+                ? "text-red"
+                : "text-pussian-blue sm:text-white"
             }`}
             aria-label="Home Page"
           >

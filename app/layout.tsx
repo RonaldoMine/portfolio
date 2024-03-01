@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Maven_Pro } from "next/font/google";
 import "@/public/css/globals.css";
 import { Header } from "./components/Header";
-import 'swiper/css';
+import "swiper/css";
+import Footer from "./components/Footer";
 
 const mavenPro = Maven_Pro({ subsets: ["latin"], weight: "400" });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <main className="px-5 sm:px-10 max-w-6xl mx-auto pb-10">
           <Header />
           {children}
+          <Footer />
         </main>
       </body>
     </html>

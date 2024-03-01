@@ -31,6 +31,9 @@ export const galleries = [
       {
         src: "/images/gallery/building/3.webp",
       },
+      {
+        src: "/images/gallery/building/4.webp",
+      },
     ],
   },
 ];
