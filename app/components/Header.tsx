@@ -34,7 +34,7 @@ export function Header() {
       <div className="flex justify-between items-center mb-1">
         <button className="cursor-pointer sm:hidden">
           {
-            visible ? <IoMenu className={`text-white`} size={"28"} onClick={() => setVisible(true)} />
+            !visible ? <IoMenu className={`text-white`} size={"28"} onClick={() => setVisible(true)} />
               : <TiTimes className={`text-white`} size={"28"} onClick={() => setVisible(false)} />
           }
         </button>
