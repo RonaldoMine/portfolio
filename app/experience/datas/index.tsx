@@ -27,9 +27,12 @@ export const experienceDatas = [
       },
     ],
     missions: [
-      "Integration of APIs from partners, service providers and enterprise applications.",
-      "Extend existing APIs to support new service categories",
-      "Diagnosis and correction of bugs and performance bottlenecks"
+      "Configuration, deployment and updating of production applications.",
+      "Integration of APIs from partners and service providers into the Maviance payment ecosystem.",
+      "Extend existing APIs to support new service categories.",
+      "Investigation and correction of bugs and performance bottlenecks.",
+      "Participation weekly sessions on current architectural challenges and opportunities.",
+      "Documentation processes (deployment, problems encountered + solutions, etc.)."
     ],
     isVisible: true,
   },
