@@ -6,7 +6,7 @@ export const projects = [
       "Check Games is a thrilling Cameroonian family card game that combines strategy and quick thinking. The game is designed for up to 8 players, each starting with 4 cards.",
     img: "/images/projects/check-game-deck.webp",
     slug: "check-game",
-    link: "https://app.rune.ai/dev-fjs4TVnQ",
+    link: "https://join.rune.ai/game?g=eg",
     linkText: "Play the game",
   },
   {
