@@ -67,6 +67,10 @@ export const backendToolsImages = [
     title: "Spring Boot",
   },
   {
+    src: "/images/tools/golang.webp",
+    title: "Golang",
+  },
+  {
     src: "/images/tools/php.webp",
     title: "Php",
   },
@@ -77,12 +81,32 @@ export const backendToolsImages = [
 ];
 export const OtherToolsImages = [
   {
+    src: "/images/tools/ansible.webp",
+    title: "Ansible",
+  },
+  {
+    src: "/images/tools/docker.webp",
+    title: "Docker",
+  },
+  {
+    src: "/images/tools/jenkins.webp",
+    title: "Jenkis",
+  },
+  {
     src: "/images/tools/git.webp",
     title: "Git",
   },
   {
     src: "/images/tools/aws.webp",
     title: "AWS",
+  },
+  {
+    src: "/images/tools/kibana.webp",
+    title: "Kibana",
+  },
+  {
+    src: "/images/tools/zabbix.webp",
+    title: "Zabbix",
   },
   {
     src: "/images/tools/vercel.webp",
@@ -122,7 +146,7 @@ export const skills = [
   {
     title: "Others",
     description:
-      "Cloud? Cache? Message queuing? Code versioning? Deployement ? Here are some of the tools I've used to manage this.",
+      "Deployment? Code versioning? Monitoring? Cloud? Cache? Message queuing? Here are some of the tools I've used to manage this.",
     tools: OtherToolsImages,
   },
 ];

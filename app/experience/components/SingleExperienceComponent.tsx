@@ -47,6 +47,7 @@ export default function SingleExperienceComponent({
           {tools.map((tool, index) => {
             return (
               <Image
+                title={tool.title.toUpperCase()}
                 key={index}
                 src={tool.img}
                 width={45}

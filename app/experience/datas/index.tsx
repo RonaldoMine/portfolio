@@ -1,9 +1,82 @@
 export const experienceDatas = [
   {
+    positionTitle: "Backend Team Lead",
+    company: "Maviance PLC",
+    contractType: "CDI",
+    startDate: "03/2025",
+    tools: [
+      {
+        title: "Golang",
+        img: "/images/tools/golang-round.webp",
+      },
+      {
+        title: "Java",
+        img: "/images/tools/java-round.webp",
+      },
+      {
+        title: "PHP",
+        img: "/images/tools/php-round.webp",
+      },
+      {
+        title: "Git",
+        img: "/images/tools/git-round.webp",
+      },
+      {
+        title: "Docker",
+        img: "/images/tools/docker-round.webp",
+      },
+      {
+        title: "Ansible",
+        img: "/images/tools/ansible-round.webp",
+      },
+      {
+        title: "Jenkins",
+        img: "/images/tools/jenkins-round.webp",
+      },
+      {
+        title: "Zabbix",
+        img: "/images/tools/zabbix-round.webp",
+      },
+      {
+        title: "SonarQube",
+        img: "/images/tools/sonarqube-round.webp",
+      },
+      {
+        title: "Kibana",
+        img: "/images/tools/kibana-round.webp",
+      },
+      {
+        title: "Redis",
+        img: "/images/tools/redis-round.webp",
+      },
+      {
+        title: "AWS",
+        img: "/images/tools/aws-round.webp",
+      },
+      {
+        title: "NodeRed",
+        img: "/images/tools/nodered-round.webp",
+      },
+    ],
+    missions: [
+      "Write technical documentation for various services.",
+      "Contribute to the estimations, planning and execution of projects, features, and integrations.",
+      "Recreate authentication logic by adding the 2FA flow",
+      "Create policies and participate to the review session for the upcoming ISO 27001 certification.",
+      "Participate in the design and architecture of new features.",
+      "Task assignment and follow-up of the team of five engineers.",
+      "Guide and support the growth of backend developers on the team.",
+      "Ensure the migration of queue and cache metrics from Grafana to Zabbix.",
+      "Mentor and train five interns.",
+    ],
+    isVisible: true,
+  },
+  {
     positionTitle: "Backend Engineer",
     company: "Maviance PLC",
     contractType: "CDI",
     startDate: "01/2024",
+    endDate: "02/2025",
     tools: [
       {
         title: "PHP",
@@ -14,25 +87,45 @@ export const experienceDatas = [
         img: "/images/tools/git-round.webp",
       },
       {
+        title: "Docker",
+        img: "/images/tools/docker-round.webp",
+      },
+      {
+        title: "Ansible",
+        img: "/images/tools/ansible-round.webp",
+      },
+      {
+        title: "Redis",
+        img: "/images/tools/redis-round.webp",
+      },
+      {
         title: "SonarQube",
         img: "/images/tools/sonarqube-round.webp",
       },
       {
-        title: "jenkins",
+        title: "Jenkins",
         img: "/images/tools/jenkins-round.webp",
+      },
+      {
+        title: "Kibana",
+        img: "/images/tools/kibana-round.webp",
       },
       {
         title: "AWS",
         img: "/images/tools/aws-round.webp",
       },
+      {
+        title: "NodeRed",
+        img: "/images/tools/nodered-round.webp",
+      },
     ],
     missions: [
-      "Configuration, deployment and updating of production applications.",
+      "Configuration, deployment and updating of production services.",
       "Integration of APIs from partners and service providers into the Maviance payment ecosystem.",
-      "Extend existing APIs to support new service categories.",
-      "Investigation and correction of bugs and performance bottlenecks.",
+      "Maintain and improve our existing codebase.",
+      "Investigation and correction of bug/defect tickets and performance bottlenecks.",
       "Participation weekly sessions on current architectural challenges and opportunities.",
-      "Documentation processes (deployment, problems encountered + solutions, etc.)."
+      "Documentation processes (deployment, problems encountered + solutions, etc.).",
     ],
     isVisible: true,
   },

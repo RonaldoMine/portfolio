@@ -37,13 +37,13 @@ export default function Home() {
             <h1 className="text-5xl font-extrabold leading-[60px] sm:leading-[80px] sm:text-7xl">
               I’m Ronaldo MINE
             </h1>
-            <span className="text-red">Full Stack Web Developer</span>
+            <span className="text-red">Sotfware developer Team Lead</span>
           </div>
           <ContactButtonComponent />
         </div>
         <div className="flex bg-pussian-blue -bottom-10 w-11/12 left-0 right-0 m-auto justify-center gap-4 xs:w-8/12 sm:gap-10 sm:bottom-auto sm:m-0 sm:w-max sm:left-auto sm:-right-20 sm:py-10 sm:flex-col absolute">
           <HeadingHomeComponent title="Years of Experience" value="05" />
-          <HeadingHomeComponent title="Completed projects" value="10" />
+          <HeadingHomeComponent title="Completed projects" value="12" />
           <HeadingHomeComponent title="Pending projects" value="02" />
         </div>
       </section>
