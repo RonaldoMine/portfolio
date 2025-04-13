@@ -94,7 +94,7 @@ export function Header() {
           </Link>
         </div>
       </div>
-      <h1 className="text-red text-center font-bold text-3xl">RM.</h1>
+      <h1 className="text-red text-center font-bold text-3xl">RM</h1>
     </header>
   );
 }

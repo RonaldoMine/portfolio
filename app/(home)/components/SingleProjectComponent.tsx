@@ -43,7 +43,7 @@ export default function SingleProjectComponent({
           alt="Indcomptable Project Shop"
           width={200}
           height={400}
-          className="h-[400px] w-[200px] sm:h-[650px] sm:w-[350px] pt-20 mx-auto object-contain"
+          className="h-[400px] w-[200px] sm:h-[650px] sm:w-[350px] pt-5 sm:pt-20 mx-auto object-contain"
         />
       </div>
       <div
@@ -53,7 +53,7 @@ export default function SingleProjectComponent({
       >
         <div className="flex">
           <span className="border-b-2 border-red w-10 block"></span>
-          <span className="text-red">0{rank}/03</span>
+          <span className="text-red">0{rank}/04</span>
         </div>
         <span className="text-3xl font-bold">{title}</span>
         <p className="leading-7">{description}</p>

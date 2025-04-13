@@ -10,7 +10,7 @@ import SingleSongComponent from "./components/SingleSongComponent";
 export default function About() {
   return (
     <>
-      <ContentSectionComponent title="Who I am ?" heading="About Me">
+      <ContentSectionComponent title="Who I am ?" heading="ABOUT ME">
         <p className="text-justify mb-4">
           Commonly known as Ronaldo MINE, I&apos;m a young Cameroonian who&apos;s been
           passionate about technology ever since I was a child. My academic
@@ -37,7 +37,7 @@ export default function About() {
           moments with friends and colleagues.
         </p>
       </ContentSectionComponent>
-      <ContentSectionComponent title="Photography" heading="Passion">
+      <ContentSectionComponent title="Photography" heading="PASSION">
         <Swiper
           slidesPerView={1.25}
           grabCursor={true}
@@ -65,7 +65,7 @@ export default function About() {
 
       <ContentSectionComponent
         title="Music - 10 favorites songs"
-        heading="Passion"
+        heading="FAVORITE HOOBY"
       >
         <section className="flex sm:max-h-96">
           <Image

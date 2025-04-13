@@ -1,5 +1,15 @@
 export const projects = [
   {
+    bg: "/images/projects/tchopfindr-logo.svg",
+    title: "TchopFindr",
+    description:
+      "Online platform for finding nearby restaurants that offer dishes we want to eat. It offers the possibility of filtering results according to criteria such as rating, city and price.",
+    img: "/images/projects/tchopfindr.webp",
+    slug: "tchopfindr",
+    link: "https://tchopfindr.vercel.app/",
+    linkText: "Explore the app",
+  },
+  {
     bg: "/images/projects/check-games-logo.webp",
     title: "Check Games",
     description:
@@ -10,6 +20,16 @@ export const projects = [
     linkText: "Play the game",
   },
   {
+    bg: "/images/projects/indomptable-shop/logo.png",
+    title: "Indomptable Shop",
+    description:
+      "Online store promoting INDOMPTABLE brand products, Our principal mission is to inspire people to achive more than they think is POSSIBLE.",
+    img: "/images/projects/indomptable-shop.webp",
+    slug: "indomptable-shop",
+    link: "https://indomptable-shop.vercel.app/",
+    linkText: "Visit the shop",
+  },
+  {
     bg: "/images/projects/cameroon-tribune-logo.webp",
     title: "Cameroon Tribune",
     description:
@@ -18,16 +38,6 @@ export const projects = [
     slug: "camerron-tribune",
     link: "https://cameroontribune.com",
     linkText: "Visit the website",
-  },
-  {
-    bg: "/images/projects/indomptable-shop/logo.png",
-    title: "Indomptable Shop",
-    description:
-      "Online store promoting INDOMPTABLE brand products, Our principal mission is to inspire people to achive more than they think is POSSIBLE",
-    img: "/images/projects/indomptable-shop.webp",
-    slug: "indomptable-shop",
-    link: "https://indomptable-shop.vercel.app/",
-    linkText: "Visit the shop",
   },
 ];
 
