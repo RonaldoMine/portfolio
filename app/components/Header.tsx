@@ -87,7 +87,7 @@ export function Header() {
           </Link>
           <Link
             aria-label="Contact by email"
-            href={"mailto:andremine98@gmail.com"}
+            href={"mailto:m2a.ronaldo@gmail.com"}
             target="_blank"
           >
             <IoMailOutline size={"24"} />

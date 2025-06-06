@@ -15,7 +15,7 @@ export default function About() {
           Commonly known as Ronaldo MINE, I&apos;m a young Cameroonian who&apos;s been
           passionate about technology ever since I was a child. My academic
           background has enabled me to specialize in web development solutions,
-          with over 5 years of professional experience to my credit.
+          with over 6 years of professional experience to my credit.
         </p>
         <p className="text-justify mb-4">
           During my professional career, I was able to adapt easily to the work

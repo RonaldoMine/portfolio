@@ -24,7 +24,7 @@ export default function ContactButtonComponent() {
           <VscGithub size={"24"} className="fill-red" />
         </Link>
         <Link aria-label="Mail Contact"
-          href={"mailto:andremine98@gmail.com"}
+          href={"mailto:m2a.ronaldo@gmail.com"}
           target="_blank"
           className="opacity-0 group-hover:opacity-100 transition-opacity duration-700"
         >
