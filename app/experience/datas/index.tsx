@@ -64,7 +64,7 @@ export const experienceDatas = [
       "Recreate authentication logic by adding the 2FA flow",
       "Create policies and participate to the review session for the upcoming ISO 27001 certification.",
       "Participate in the design and architecture of new features.",
-      "Task assignment and follow-up of the team of five engineers.",
+      "Task assignment and follow-up of the team of four engineers.",
       "Guide and support the growth of backend developers on the team.",
       "Ensure the migration of queue and cache metrics from Grafana to Zabbix.",
       "Mentor and train five interns.",
