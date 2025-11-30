@@ -12,6 +12,7 @@ type Props = {
   link: string;
   linkText: string;
   reverse?: boolean;
+  totalCount?: number;
 };
 
 export default function SingleProjectComponent({
@@ -24,6 +25,7 @@ export default function SingleProjectComponent({
   link,
   linkText,
   reverse = false,
+  totalCount
 }: Props) {
   return (
     <div
@@ -53,7 +55,7 @@ export default function SingleProjectComponent({
       >
         <div className="flex">
           <span className="border-b-2 border-red w-10 block"></span>
-          <span className="text-red">0{rank}/04</span>
+          <span className="text-red">0{rank}/0{totalCount}</span>
         </div>
         <span className="text-3xl font-bold">{title}</span>
         <p className="leading-7">{description}</p>

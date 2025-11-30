@@ -2,15 +2,8 @@
 
 import HeadingHomeComponent from "./components/HeadingHomeComponent";
 import SingleProjectComponent from "./components/SingleProjectComponent";
-import Image from "next/image";
 import ContentSectionComponent from "@/app/components/ContentSectionComponent";
-import {
-  frontendToolsImages,
-  backendToolsImages,
-  OtherToolsImages,
-  projects,
-  skills,
-} from "./datas";
+import { projects, skills } from "./datas";
 import SkillComponent from "./components/SkillComponent";
 import ContactButtonComponent from "./components/ContactButtonComponent";
 
@@ -33,11 +26,13 @@ export default function Home() {
       <section className="text-white border-b-2 border-white relative flex flex-col justify-center my-5 pb-24 mb-24 sm:border-b-0 sm:my-10 sm:border-r-2 sm:w-11/12 sm:py-20">
         <div className="sm:w-2/3">
           <div className="mb-10 sm:mb-32">
-            <span>Hey there,</span>
+            <span>Hey,</span>
             <h1 className="text-5xl font-extrabold leading-[60px] sm:leading-[80px] sm:text-7xl">
-              I’m Ronaldo MINE
+              I'm Ronaldo MINE
             </h1>
-            <span className="text-red text-lg">Sotfware developer Team Lead</span>
+            <span className="text-red text-lg">
+              Sotfware developer Team Lead
+            </span>
           </div>
           <ContactButtonComponent />
         </div>
@@ -60,6 +55,7 @@ export default function Home() {
             reverse={index % 2 !== 0}
             link={project.link}
             linkText={project.linkText}
+            totalCount={projects.length}
           />
         ))}
       </ContentSectionComponent>

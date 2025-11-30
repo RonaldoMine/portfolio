@@ -1,9 +1,19 @@
 export const projects = [
   {
+    bg: "/images/projects/losto-logo.webp",
+    title: "Losto",
+    description:
+      "A faster, smarter way to access healthcare. Explore nearby hospitals, pharmacies, and medical centres, and get transparent details on insurance coverage at each location.",
+    img: "/images/projects/losto.webp",
+    slug: "tchopfindr",
+    link: "https://losto.cm",
+    linkText: "Explore the app",
+  },
+  {
     bg: "/images/projects/tchopfindr-logo.svg",
     title: "TchopFindr",
     description:
-      "Online platform for finding nearby restaurants that offer dishes we want to eat. It offers the possibility of filtering results according to criteria such as rating, city and price.",
+      "A convenient platform for discovering restaurants that match your cravings, with flexible filtering options including rating, city, and budget.",
     img: "/images/projects/tchopfindr.webp",
     slug: "tchopfindr",
     link: "https://tchopfindr.vercel.app/",
@@ -28,17 +38,7 @@ export const projects = [
     slug: "indomptable-shop",
     link: "https://indomptable-shop.vercel.app/",
     linkText: "Visit the shop",
-  },
-  {
-    bg: "/images/projects/cameroon-tribune-logo.webp",
-    title: "Cameroon Tribune",
-    description:
-      "This is a consumer solution developed at NEXAH for the distribution of digital newspapers, for which I was the main technical player.",
-    img: "/images/projects/newspaper.webp",
-    slug: "camerron-tribune",
-    link: "https://cameroontribune.com",
-    linkText: "Visit the website",
-  },
+  }
 ];
 
 export const frontendToolsImages = [
