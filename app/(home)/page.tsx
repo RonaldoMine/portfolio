@@ -28,7 +28,7 @@ export default function Home() {
           <div className="mb-10 sm:mb-32">
             <span>Hey,</span>
             <h1 className="text-5xl font-extrabold leading-[60px] sm:leading-[80px] sm:text-7xl">
-              I'm Ronaldo MINE
+              {"I'm Ronaldo MINE"}
             </h1>
             <span className="text-red text-lg">
               Sotfware developer Team Lead
