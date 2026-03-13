@@ -25,7 +25,7 @@ export default function SingleProjectComponent({
   link,
   linkText,
   reverse = false,
-  totalCount
+  totalCount,
 }: Props) {
   return (
     <div
@@ -55,20 +55,25 @@ export default function SingleProjectComponent({
       >
         <div className="flex">
           <span className="border-b-2 border-red w-10 block"></span>
-          <span className="text-red">0{rank}/0{totalCount}</span>
+          <span className="text-red">
+            0{rank}/0{totalCount}
+          </span>
         </div>
         <span className="text-3xl font-bold">{title}</span>
         <p className="leading-7">{description}</p>
-        <div>
-          <Link
-          aria-label="Project"
-            //href={`/projects/${slug}`}
-            href={link}
-            target="_blank"
-            className="bg-red p-3 flex items-center gap-2 w-max"
-          >
-            {linkText} <FaArrowRightLong />
-          </Link>
+        <div className="group w-max relative text-center cursor-pointer">
+          <div>
+            <Link
+              aria-label="Project"
+              //href={`/projects/${slug}`}
+              href={link}
+              target="_blank"
+              className=" flex h-full p-3 bg-red items-center gap-2 transition-all duration-700 group-hover:text-red group-hover:bg-white"
+            >
+              {linkText} <FaArrowRightLong />
+            </Link>
+          </div>
+          <div className="absolute h-full flex justify-between items-center gap-5 bg-white/20 z-1 inset-0 w-0  transition-all duration-500 group-hover:w-full group-hover:p-3"></div>
         </div>
       </div>
     </div>

@@ -21,6 +21,21 @@ const config: Config = {
       screens: {
         xs: "475px",
       },
+      keyframes: {
+        "bounce-right": {
+          "0%, 100%": {
+            transform: "translateX(0)",
+            "animation-timing-function": "cubic-bezier(0.8, 0, 1, 1)",
+          },
+          "50%": {
+            transform: "translateX(25%)", // Adjust the value for desired bounce distance
+            "animation-timing-function": "cubic-bezier(0, 0, 0.2, 1)",
+          },
+        },
+      },
+      animation: {
+        "bounce-right": "bounce-right 1s infinite", // Use the keyframe name
+      },
     },
   },
   plugins: [],
