@@ -1,13 +1,16 @@
-"use client";
-
 import HeadingHomeComponent from "./components/HeadingHomeComponent";
 import SingleProjectComponent from "./components/SingleProjectComponent";
-import ContentSectionComponent from "@/app/components/ContentSectionComponent";
-import { projects, skills } from "./datas";
+import ContentSectionComponent from "../components/ContentSectionComponent";
+import { getProjects, getSkills } from "./datas";
 import SkillComponent from "./components/SkillComponent";
 import ContactButtonComponent from "./components/ContactButtonComponent";
+import { getDictionary } from "@/get-dictionary";
+import type { Locale } from "@/i18n-config";
 
-export default function Home() {
+export default async function Home({ params }: { params: { lang: string } }) {
+  const dict = await getDictionary(params.lang as Locale);
+  const projects = getProjects(dict.homeProjects);
+  const skills = getSkills(dict.homeSkills);
   /*useGSAP(() => {
     gsap
       .from("body", {
@@ -26,23 +29,23 @@ export default function Home() {
       <section className="text-white border-b-2 border-white relative flex flex-col justify-center my-5 pb-24 mb-24 sm:border-b-0 sm:my-10 sm:border-r-2 sm:w-11/12 sm:py-20">
         <div className="sm:w-2/3">
           <div className="mb-10 sm:mb-32">
-            <span>Hey,</span>
+            <span>{dict.home.hey}</span>
             <h1 className="text-5xl font-extrabold leading-[60px] sm:leading-[80px] sm:text-7xl">
-              {"I'm Ronaldo MINE"}
+              {dict.home.title}
             </h1>
             <span className="text-red text-lg">
-              Sotfware developer Team Lead
+              {dict.home.role}
             </span>
           </div>
-          <ContactButtonComponent />
+          <ContactButtonComponent text={dict.contactButton} />
         </div>
         <div className="flex bg-pussian-blue -bottom-10 w-11/12 left-0 right-0 m-auto justify-center gap-4 xs:w-8/12 sm:gap-10 sm:bottom-auto sm:m-0 sm:w-max sm:left-auto sm:-right-20 sm:py-10 sm:flex-col absolute">
-          <HeadingHomeComponent title="Years of Experience" value="06" />
-          <HeadingHomeComponent title="Completed projects" value="12" />
-          <HeadingHomeComponent title="Pending projects" value="02" />
+          <HeadingHomeComponent title={dict.home.yearsExp} value="06" />
+          <HeadingHomeComponent title={dict.home.completed} value="12" />
+          <HeadingHomeComponent title={dict.home.pending} value="02" />
         </div>
       </section>
-      <ContentSectionComponent title="Latest Projects" heading="EXPLORE">
+      <ContentSectionComponent title={dict.home.latestTitle} heading={dict.home.latestHeading}>
         {projects.map((project, index) => (
           <SingleProjectComponent
             key={`project-${index}`}
@@ -59,7 +62,7 @@ export default function Home() {
           />
         ))}
       </ContentSectionComponent>
-      <ContentSectionComponent title="Technical Skills" heading="DISCOVER">
+      <ContentSectionComponent title={dict.home.skillsTitle} heading={dict.home.skillsHeading}>
         {skills.map((skill, index) => (
           <SkillComponent
             key={`skill-${index}`}

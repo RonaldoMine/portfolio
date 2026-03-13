@@ -3,10 +3,10 @@ import { IoMailOutline } from "react-icons/io5";
 import { VscGithub } from "react-icons/vsc";
 import Link from "next/link";
 
-export default function ContactButtonComponent() {
+export default function ContactButtonComponent({ text }: { text?: string }) {
   return (
     <section className="bg-red p-3 w-36 relative text-center cursor-pointer group">
-      <span className="w-full">Contact me</span>
+      <span className="w-full">{text || "Contact me"}</span>
       <div className="absolute h-full flex justify-between items-center gap-5 bg-white z-1 inset-0 w-0  transition-all duration-700 group-hover:w-full group-hover:p-3">
         <Link aria-label="LinkedIn Profile"
           href={"https://linkedin.com/in/ronaldo-mine-764b59195"}

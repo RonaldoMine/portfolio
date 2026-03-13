@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import homePageImg from "@/public/images/projects/indomptable-shop/home-website-page.png";
 
-export default function IndomptableShop() {
+export default function ClientPage({ dict }: { dict: any }) {
   const tools = [
     {
       title: "NextJS",
@@ -38,89 +38,78 @@ export default function IndomptableShop() {
   const mockups = [
     {
       img: "/images/projects/indomptable-shop/mockup-home-page.jpg",
-      title: "Home Page",
-      description:
-        "Lorem ipsum dolor sit amet consectetur. Risus hendrerit eleifend accumsan cursus ut. Facilisis eget molestie massa lectus etiam donec cursus amet. ",
+      title: dict.mockupHome,
+      description: dict.mockupDesc,
     },
     {
       img: "/images/projects/indomptable-shop/mockup-product-detail.jpg",
-      title: "Product detail Page",
-      description:
-        "Lorem ipsum dolor sit amet consectetur. Risus hendrerit eleifend accumsan cursus ut. Facilisis eget molestie massa lectus etiam donec cursus amet. ",
+      title: dict.mockupProduct,
+      description: dict.mockupDesc,
     },
     {
       img: "/images/projects/indomptable-shop/mockup-shop-page.jpg",
-      title: "Shop Page",
-      description:
-        "Lorem ipsum dolor sit amet consectetur. Risus hendrerit eleifend accumsan cursus ut. Facilisis eget molestie massa lectus etiam donec cursus amet. ",
+      title: dict.mockupShop,
+      description: dict.mockupDesc,
     },
   ];
   return (
     <>
       <section className="py-10 flex flex-col gap-3 sm:gap-6">
         <span className="bg-clip-text bg-gradient-lapis text-fill-color-transparent text-xs sm:text-base">
-          ONLINE SHOP
+          {dict.subtitle}
         </span>
         <div className="flex justify-between">
           <h1 className="text-red text-2xl sm:text-4xl font-bold">
             Indomptable Shop
           </h1>
-          <Link aria-label="Visit the shop" href={"https://indomptable-shop.vercel.app/"} target="_blank">
+          <Link aria-label={dict.visitLink} href={"https://indomptable-shop.vercel.app/"} target="_blank">
             <FiExternalLink className="text-red" size={25} />
           </Link>
         </div>
         <p className="text-justify">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-          odit vel, ratione harum molestias sed cum at id cupiditate tenetur
-          quia ea quaerat dolores assumenda a magnam molestiae repellendus sunt?
+          {dict.description}
         </p>
       </section>
       <section className="border-y border-gray-200 py-10 my-16 flex flex-col gap-10">
         <div className="sm:flex sm:flex-row">
-          <h2 className="font-bold text-xl basis-1/4 mb-3">Context</h2>
+          <h2 className="font-bold text-xl basis-1/4 mb-3">{dict.contextTitle}</h2>
           <div className="flex flex-col gap-4 basis-3/4">
             <div>
               <h3 className="text-lg font-bold mb-3 hidden sm:block">
-                Build an online shop to send Indomptable articles
+                {dict.contextDesc1Title}
               </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Risus hendrerit eleifend
-                accumsan cursus ut. Facilisis eget molestie massa lectus etiam
-                donec cursus amet.
+                {dict.contextDesc1}
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-bold mb-3">Increase Visibility</h3>
+              <h3 className="text-lg font-bold mb-3">{dict.contextDesc2Title}</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Risus hendrerit eleifend
-                accumsan cursus ut. Facilisis eget molestie massa lectus etiam
-                donec cursus amet.
+                {dict.contextDesc2}
               </p>
             </div>
           </div>
         </div>
         <div className="sm:flex sm:flex-row">
-          <h2 className="font-bold text-xl basis-1/4 mb-3">Teams</h2>
+          <h2 className="font-bold text-xl basis-1/4 mb-3">{dict.teamsTitle}</h2>
           <div className="basis-3/4">
             <h3 className="text-lg font-bold mb-3 hidden sm:block">
-              The Squad
+              {dict.squadTitle}
             </h3>
             <ul className="list-disc ml-8">
-              <li>Ronaldo Mine : Developer</li>
-              <li>Marc-Antoine Ngaba : Developer/Designer</li>
+              <li>{dict.dev1}</li>
+              <li>{dict.dev2}</li>
             </ul>
           </div>
         </div>
         <div className="sm:flex sm:flex-row">
-          <h2 className="font-bold text-xl basis-1/4 mb-3">Stack</h2>
+          <h2 className="font-bold text-xl basis-1/4 mb-3">{dict.stackTitle}</h2>
           <div className="basis-3/4">
             <h3 className="text-lg font-bold mb-3 hidden sm:block">
-              The technicals tools used
+              {dict.toolsTitle}
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Risus hendrerit eleifend
-              accumsan cursus ut. Facilisis eget molestie massa lectus etiam
-              donec cursus amet.
+              {dict.toolsDesc}
             </p>
             <div className="flex flex-wrap mt-4 gap-4">
               {tools.map((tool, index) => {
@@ -138,7 +127,7 @@ export default function IndomptableShop() {
           </div>
         </div>
         <div className="sm:flex sm:flex-row">
-          <h2 className="font-bold text-xl basis-1/4 mb-3">Mockups</h2>
+          <h2 className="font-bold text-xl basis-1/4 mb-3">{dict.mockupsTitle}</h2>
           <div className="basis-3/4 w-full sm:w-3/4">
             <Swiper
               slidesPerView={1}
@@ -183,15 +172,15 @@ export default function IndomptableShop() {
             className="mx-auto"
           />
           <h1 className="text-2xl font-extrabold tracking-widest">
-            Ready to enjoy the experience ?
+            {dict.readyTitle}
           </h1>
           <div className="mx-auto">
             <Link
-              aria-label="Visit the website"
+              aria-label={dict.visitWebsiteBtn}
               href={"https://indomptable-shop.vercel.app/"}
               className="bg-red p-3 flex-shrink-0"
             >
-              Visit the website
+              {dict.visitWebsiteBtn}
             </Link>
           </div>
         </div>

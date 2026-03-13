@@ -1,43 +1,39 @@
-export const projects = [
+export const getProjects = (dict: any) => [
   {
     bg: "/images/projects/losto-logo.webp",
     title: "Losto",
-    description:
-      "A faster, smarter way to access healthcare. Explore nearby hospitals, pharmacies, and medical centres, and get transparent details on insurance coverage at each location.",
+    description: dict.lostoDesc,
     img: "/images/projects/losto.webp",
     slug: "tchopfindr",
     link: "https://losto.cm",
-    linkText: "Explore the app",
+    linkText: dict.lostoLink,
   },
   {
     bg: "/images/projects/tchopfindr-logo.svg",
     title: "TchopFindr",
-    description:
-      "A convenient platform for discovering restaurants that match your cravings, with flexible filtering options including rating, city, and budget.",
+    description: dict.tchopfindrDesc,
     img: "/images/projects/tchopfindr.webp",
     slug: "tchopfindr",
     link: "https://tchopfindr.vercel.app/",
-    linkText: "Explore the app",
+    linkText: dict.tchopfindrLink,
   },
   {
     bg: "/images/projects/check-games-logo.webp",
     title: "Check Games",
-    description:
-      "Check Games is a thrilling Cameroonian family card game that combines strategy and quick thinking. The game is designed for up to 8 players, each starting with 4 cards.",
+    description: dict.checkgamesDesc,
     img: "/images/projects/check-game-deck.webp",
     slug: "check-game",
     link: "https://join.rune.ai/game?g=eg",
-    linkText: "Play the game",
+    linkText: dict.checkgamesLink,
   },
   {
     bg: "/images/projects/indomptable-shop/logo.png",
     title: "Indomptable Shop",
-    description:
-      "Online store promoting INDOMPTABLE brand products, Our principal mission is to inspire people to achive more than they think is POSSIBLE.",
+    description: dict.shopDesc,
     img: "/images/projects/indomptable-shop.webp",
     slug: "indomptable-shop",
     link: "https://indomptable-shop.vercel.app/",
-    linkText: "Visit the shop",
+    linkText: dict.shopLink,
   }
 ];
 
@@ -140,23 +136,20 @@ export const OtherToolsImages = [
   },
 ];
 
-export const skills = [
+export const getSkills = (dict: any) => [
   {
-    title: "Frontend",
-    description:
-      "Here are most of the frontend tools I use frequently, I've also worked with many other like VueJS, ViteJS, Bootstrap, AntDesign, Zustand, Flutter and many more.",
+    title: dict.frontTitle,
+    description: dict.frontDesc,
     tools: frontendToolsImages,
   },
   {
-    title: "Backend",
-    description:
-      "Here are most of the backend tools I use frequently, I've also worked with many others like ExpressJs, Lumen, Python.",
+    title: dict.backTitle,
+    description: dict.backDesc,
     tools: backendToolsImages,
   },
   {
-    title: "Others",
-    description:
-      "Deployment? Code versioning? Monitoring? Cloud? Cache? Message queuing? Here are some of the tools I've used to manage this.",
+    title: dict.otherTitle,
+    description: dict.otherDesc,
     tools: OtherToolsImages,
   },
 ];

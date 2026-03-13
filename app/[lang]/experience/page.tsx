@@ -1,14 +1,17 @@
-"use client";
-
 import SingleEducationComponent from "./components/SingleEducationComponent";
 import SingleExperienceComponent from "./components/SingleExperienceComponent";
-import { experienceDatas, educationDatas } from "./datas";
-import ContentSectionComponent from "@/app/components/ContentSectionComponent";
+import { getExperienceDatas, getEducationDatas } from "./datas";
+import ContentSectionComponent from "../components/ContentSectionComponent";
+import { getDictionary } from "@/get-dictionary";
+import type { Locale } from "@/i18n-config";
 
-export default function Experience() {
+export default async function Experience({ params }: { params: { lang: string } }) {
+  const dict = await getDictionary(params.lang as Locale);
+  const experienceDatas = getExperienceDatas(dict.experience);
+  const educationDatas = getEducationDatas(dict.experience);
   return (
     <>
-      <ContentSectionComponent title="My Awesome Experience" heading="WORK EXPERIENCE">
+      <ContentSectionComponent title={dict.experience.workTitle} heading={dict.experience.workHeading}>
         <ol>
           {experienceDatas
             .filter((experience) => experience.isVisible)
@@ -26,7 +29,7 @@ export default function Experience() {
             ))}
         </ol>
       </ContentSectionComponent>
-      <ContentSectionComponent heading="QUALIFICATION" title="My Education">
+      <ContentSectionComponent heading={dict.experience.eduHeading} title={dict.experience.eduTitle}>
         <ol>
           {educationDatas.map((education, index) => (
             <SingleEducationComponent

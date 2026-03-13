@@ -1,0 +1,144 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "hey": "Hey,",
+    "title": "I'm Ronaldo MINE",
+    "role": "Senior Full Stack Developer & Tech Lead",
+    "yearsExp": "Years of Experience",
+    "completed": "Completed projects",
+    "pending": "Pending projects",
+    "latestHeading": "EXPLORE",
+    "latestTitle": "Latest Projects",
+    "skillsHeading": "DISCOVER",
+    "skillsTitle": "Technical Skills"
+  },
+  "homeProjects": {
+    "lostoDesc": "A faster, smarter way to access healthcare. Explore nearby hospitals, pharmacies, and medical centres, and get transparent details on insurance coverage at each location.",
+    "lostoLink": "Explore the app",
+    "tchopfindrDesc": "A convenient platform for discovering restaurants that match your cravings, with flexible filtering options including rating, city, and budget.",
+    "tchopfindrLink": "Explore the app",
+    "checkgamesDesc": "Check Games is a thrilling Cameroonian family card game that combines strategy and quick thinking. The game is designed for up to 8 players, each starting with 4 cards.",
+    "checkgamesLink": "Play the game",
+    "shopDesc": "Online store promoting INDOMPTABLE brand products, Our principal mission is to inspire people to achive more than they think is POSSIBLE.",
+    "shopLink": "Visit the shop"
+  },
+  "homeSkills": {
+    "frontTitle": "Frontend",
+    "frontDesc": "Here are most of the frontend tools I use frequently, I've also worked with many other like VueJS, ViteJS, Bootstrap, AntDesign, Zustand, Flutter and many more.",
+    "backTitle": "Backend",
+    "backDesc": "Here are most of the backend tools I use frequently, I've also worked with many others like ExpressJs, Lumen, Python.",
+    "otherTitle": "Others",
+    "otherDesc": "Deployment? Code versioning? Monitoring? Cloud? Cache? Message queuing? Here are some of the tools I've used to manage this."
+  },
+  "about": {
+    "heading": "ABOUT ME",
+    "title": "Who I am ?",
+    "passionHeading": "PASSION",
+    "passionTitle": "Photography",
+    "hobbyHeading": "FAVORITE HOOBY",
+    "hobbyTitle": "Music - 10 favorites songs",
+    "para1": "Commonly known as Ronaldo MINE, I'm a young Cameroonian who's been passionate about technology ever since I was a child. My academic background has enabled me to specialize in web development solutions, with over 6 years of professional experience to my credit.",
+    "para2": "During my professional career, I was able to adapt easily to the work environment, both with the people and the technologies used, which enabled me to increase my team spirit, develop my perseverance, my analytical mind and thanks to all this I was very quickly able to receive key responsibilities in the development of solutions for these different companies. What's more, I've had to develop applications that have been used by thousands of people in both the professional and personal spheres. My goal is to join a company at the cutting edge of technology and digital innovation, and work together to design quality solutions. This will enable me to gain knowledge and experience around a diverse team focused on excellence, and ultimately build a solid and serene future for myself.",
+    "para3": "Personally, I'm passionate about music, photography, soccer and board games. This allows me to find a balance in my life and share pleasant moments with friends and colleagues."
+  },
+  "experience": {
+    "workHeading": "WORK EXPERIENCE",
+    "workTitle": "My Awesome Experience",
+    "eduHeading": "QUALIFICATION",
+    "eduTitle": "My Education",
+    "present": "Present",
+    "p1": {
+      "title": "Backend Team Lead",
+      "contractType": "CDI",
+      "m1": "Drafting technical documentation for services.",
+      "m2": "Contribute to the design and architecture of new features.",
+      "m3": "Contributing to the estimation, planning, and execution of projects, features, and integrations.",
+      "m4": "Developing policies and participating in review sessions to prepare for ISO 27001 certification.",
+      "m5": "Participation in the integration of credit card payments and the addition of a security layer security layer into the Cameroonian VISA payment solution.",
+      "m6": "Implementation of two-factor authentication in the authentication microservice.",
+      "m7": "Delegation of tasks and supervision of a team of about ten engineers."
+    },
+    "p2": {
+      "title": "Backend Engineer",
+      "contractType": "CDI",
+      "m1": "Configuration, deployment and updating of production services.",
+      "m2": "Integration of APIs from partners and service providers into the Maviance payment ecosystem.",
+      "m3": "Investigation and correction of bug/defect tickets and performance bottlenecks.",
+      "m4": "Participation weekly sessions on current architectural challenges and opportunities.",
+      "m5": "Documentation processes (deployment, problems encountered + solutions, etc.)."
+    },
+    "p3": {
+      "title": "Software developer Team Lead",
+      "contractType": "CDI",
+      "m1": "Integration of Orange Money, Express Union, Yoomee Money and VISA mobile payment APIs into the NEXAH PAY solution.",
+      "m2": "Development of the tombola platform and customer census for Carrefour Market's 6th anniversary, with more than 6,000 customers participating via a USSD code on their phone during the month of the tombola.",
+      "m3": "Development of the insurance premium payment platform for the Prudential Beneficial insurance company, with more than 125,000,000 XAF paid by customers in almost a year and a half.",
+      "m4": "Development of the online digital newspaper purchasing platform for Société de Presse et d'Editions du Cameroun, with over 10,000 customers registered in the first 3 months.",
+      "m5": "Participate in the analysis of customer needs or those of internal departments, and in the implementation of corresponding applications or services.",
+      "m6": "Supervised a team of developers to ensure tasks were carried out in a coordinated and efficient manner, while enabling them to develop their skills",
+      "m7": "Documenting APIs and providing support to clients in integrating these APIs."
+    },
+    "p4": {
+      "title": "Web and Mobile developer",
+      "contractType": "CDI",
+      "m1": "Integration with the Prudential Beneficial insurance company's system to send automated SMS messages to policyholders, resulting in a purchase order for 700,000 SMS messages",
+      "m2": "Implementation of a task management platform",
+      "m3": "Implementation of a commercial activity monitoring platform",
+      "m4": "Redesign of the company's website",
+      "m5": "Mentoring interns"
+    },
+    "edu1": {
+      "degree": "Bachelor's degree in Software Engineering",
+      "school": "University Institute of Technology of Douala"
+    },
+    "edu2": {
+      "degree": "Computer Engineering DUT Cycle",
+      "school": "University Institute of Technology of Douala"
+    },
+    "edu3": {
+      "degree": "Baccalaureat",
+      "school": "Niete Bilingual High School"
+    }
+  },
+  "projects": {
+    "title": "Projects."
+  },
+  "indomptableShop": {
+    "subtitle": "ONLINE SHOP",
+    "visitLink": "Visit the shop",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt odit vel, ratione harum molestias sed cum at id cupiditate tenetur quia ea quaerat dolores assumenda a magnam molestiae repellendus sunt?",
+    "contextTitle": "Context",
+    "contextDesc1Title": "Build an online shop to send Indomptable articles",
+    "contextDesc1": "Lorem ipsum dolor sit amet consectetur. Risus hendrerit eleifend accumsan cursus ut. Facilisis eget molestie massa lectus etiam donec cursus amet.",
+    "contextDesc2Title": "Increase Visibility",
+    "contextDesc2": "Lorem ipsum dolor sit amet consectetur. Risus hendrerit eleifend accumsan cursus ut. Facilisis eget molestie massa lectus etiam donec cursus amet.",
+    "teamsTitle": "Teams",
+    "squadTitle": "The Squad",
+    "dev1": "Ronaldo Mine : Developer",
+    "dev2": "Marc-Antoine Ngaba : Developer/Designer",
+    "stackTitle": "Stack",
+    "toolsTitle": "The technicals tools used",
+    "toolsDesc": "Lorem ipsum dolor sit amet consectetur. Risus hendrerit eleifend accumsan cursus ut. Facilisis eget molestie massa lectus etiam donec cursus amet.",
+    "mockupsTitle": "Mockups",
+    "mockupHome": "Home Page",
+    "mockupProduct": "Product detail Page",
+    "mockupShop": "Shop Page",
+    "mockupDesc": "Lorem ipsum dolor sit amet consectetur. Risus hendrerit eleifend accumsan cursus ut. Facilisis eget molestie massa lectus etiam donec cursus amet.",
+    "readyTitle": "Ready to enjoy the experience ?",
+    "visitWebsiteBtn": "Visit the website"
+  },
+  "footer": {
+    "text": "Made with ❤️ by Ronaldo MINE.",
+    "talk": "Let us discuss about you, our next partnership, job proposition or whatever.",
+    "home": "Home",
+    "experience": "Experience",
+    "about": "About"
+  },
+  "contactButton": "Contact me"
+}

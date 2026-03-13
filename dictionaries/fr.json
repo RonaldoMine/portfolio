@@ -1,0 +1,144 @@
+{
+  "header": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "home": {
+    "hey": "Salut,",
+    "title": "Je suis Ronaldo MINE",
+    "role": "Senior Développeur Full Stack & Tech Lead",
+    "yearsExp": "Années d'Expérience",
+    "completed": "Projets terminés",
+    "pending": "Projets en cours",
+    "latestHeading": "EXPLORER",
+    "latestTitle": "Derniers Projets",
+    "skillsHeading": "DÉCOUVRIR",
+    "skillsTitle": "Compétences Techniques"
+  },
+  "homeProjects": {
+    "lostoDesc": "Un moyen plus rapide et plus intelligent d'accéder aux soins de santé. Explorez les hôpitaux, pharmacies et centres médicaux à proximité, et obtenez des détails transparents sur la couverture d'assurance à chaque endroit.",
+    "lostoLink": "Explorer l'application",
+    "tchopfindrDesc": "Une plateforme pratique pour découvrir des restaurants qui correspondent à vos envies, avec des options de filtrage flexibles incluant la note, la ville et le budget.",
+    "tchopfindrLink": "Explorer l'application",
+    "checkgamesDesc": "Check Games est un passionnant jeu de cartes familial camerounais qui combine stratégie et rapidité d'esprit. Le jeu est conçu pour un maximum de 8 joueurs, chacun commençant avec 4 cartes.",
+    "checkgamesLink": "Jouer au jeu",
+    "shopDesc": "Boutique en ligne promouvant les produits de la marque INDOMPTABLE. Notre mission principale est d'inspirer les gens à accomplir plus que ce qu'ils pensent être POSSIBLE.",
+    "shopLink": "Visiter la boutique"
+  },
+  "homeSkills": {
+    "frontTitle": "Frontend",
+    "frontDesc": "Voici la plupart des outils frontend que j'utilise fréquemment. J'ai également travaillé avec de nombreux autres comme VueJS, ViteJS, Bootstrap, AntDesign, Zustand, Flutter et bien d'autres.",
+    "backTitle": "Backend",
+    "backDesc": "Voici la plupart des outils backend que j'utilise fréquemment. J'ai également travaillé avec beaucoup d'autres comme ExpressJs, Lumen, Python.",
+    "otherTitle": "Autres",
+    "otherDesc": "Déploiement ? Gestion des versions de code ? Surveillance ? Cloud ? Cache ? File d'attente de messages ? Voici quelques-uns des outils que j'ai utilisés pour gérer cela."
+  },
+  "about": {
+    "heading": "À PROPOS DE MOI",
+    "title": "Qui suis-je ?",
+    "passionHeading": "PASSION",
+    "passionTitle": "Photographie",
+    "hobbyHeading": "LOISIR PRÉFÉRÉ",
+    "hobbyTitle": "Musique - 10 chansons préférées",
+    "para1": "Communément appelé Ronaldo MINE, je suis un jeune camerounais passionné par la technologie. Mon parcours académique m'a permis de me spécialiser dans les solutions de développement web, avec plus de 6 ans d'expérience professionnelle à mon actif.",
+    "para2": "Au cours de mon parcours professionnel, j'ai pu m'adapter facilement à l'environnement de travail, tant avec les personnes qu'avec les technologies utilisées, ce qui m'a permis d'accroître mon esprit d'équipe, de développer ma persévérance, mon esprit d'analyse et grâce à tout cela j'ai très vite pu recevoir des responsabilités clés dans le développement de solutions pour ces différentes entreprises. De plus, j'ai eu à développer des applications qui ont été utilisées par des milliers de personnes, tant dans la sphère professionnelle que personnelle. Mon objectif est de rejoindre une entreprise à la pointe de la technologie et de l'innovation numérique, et de travailler ensemble pour concevoir des solutions de qualité. Cela me permettra d'acquérir des connaissances et de l'expérience au sein d'une équipe diversifiée et axée sur l'excellence, et finalement de me construire un avenir solide et serein.",
+    "para3": "Personnellement, je suis passionné de musique, de photographie, de football et de jeux de société. Cela me permet de trouver un équilibre dans ma vie et de partager d'agréables moments avec mes amis et collègues."
+  },
+  "experience": {
+    "workHeading": "EXPÉRIENCE PROFESSIONNELLE",
+    "workTitle": "Mes Formidables Expériences",
+    "eduHeading": "QUALIFICATION",
+    "eduTitle": "Mon Éducation",
+    "present": "Aujourd'hui",
+    "p1": {
+      "title": "Lead Développeur Backend",
+      "contractType": "CDI",
+      "m1": "Rédaction de la documentation technique pour divers services.",
+      "m2": "Participation à la conception et à l'architecture de nouvelles fonctionnalités.",
+      "m3": "Contribution à l'estimation, à la planification et à l'exécution des projets, des fonctionnalités et des intégrations.",
+      "m4": "Création des politiques et participation aux sessions de révision pour la préparation à la certification ISO 27001.",
+      "m5": "Participation à l'intégration du paiement par carte bancaire et l'ajout d'une couche de sécurité dans la solution de paiement de VISA camerounais.",
+      "m6": "Implémentation de la double authentification dans le micro-service d'authentification",
+      "m7": "Délégation des taches et supervision d'une équipe d'une dizaine d'ingénieurs."
+    },
+    "p2": {
+      "title": "Ingénieur Backend",
+      "contractType": "CDI",
+      "m1": "Configuration, déploiement et mise à jour des services en production.",
+      "m2": "Intégration d'API de partenaires et prestataires de services dans l'écosystème de paiement Maviance.",
+      "m3": "Investigation et correction de tickets de bugs/défauts et de goulots d'étranglement de performance.",
+      "m4": "Participation aux sessions hebdomadaires sur les défis et opportunités architecturaux actuels.",
+      "m5": "Documentation des processus (déploiement, problèmes rencontrés + solutions, etc.)."
+    },
+    "p3": {
+      "title": "Lead Développeur Logiciel",
+      "contractType": "CDI",
+      "m1": "Intégration des API de paiement mobile Orange Money, Express Union, Yoomee Money et VISA dans la solution NEXAH PAY.",
+      "m2": "Développement de la plateforme de tombola et du recensement des clients pour le 6ème anniversaire de Carrefour Market, avec plus de 6 000 clients participants via un code USSD sur leur téléphone pendant le mois de la tombola.",
+      "m3": "Développement de la plateforme de paiement de primes d'assurance pour la compagnie d'assurance Prudential Beneficial, avec plus de 125 000 000 FCFA payés par les clients en près d'un an et demi.",
+      "m4": "Développement de la plateforme numérique d'achat de journaux en ligne pour la Société de Presse et d'Éditions du Cameroun, avec plus de 10 000 clients enregistrés au cours des 3 premiers mois.",
+      "m5": "Participation à l'analyse des besoins des clients ou de ceux des départements internes, et à la mise en œuvre des applications ou services correspondants.",
+      "m6": "Supervision d'une équipe de développeurs pour s'assurer que les tâches sont exécutées de manière coordonnée et efficace, tout en leur permettant de développer leurs compétences.",
+      "m7": "Documentation des API et accompagnement des clients dans leur intégration."
+    },
+    "p4": {
+      "title": "Développeur Web et Mobile",
+      "contractType": "CDI",
+      "m1": "Interconnexion au système de la compagnie d'assurance Prudential Beneficial pour l'envoi de SMS automatique aux assurés ce qui a déclenché un bon de commande de 700 000 SMS",
+      "m2": "Implémentation d'une plateforme de gestion des tâches",
+      "m3": "Implémentation d'une plateforme de suivi de l'activité commerciale",
+      "m4": "Refonte du site internet de l'entreprise",
+      "m5": "Encadrement de stagiaires"
+    },
+    "edu1": {
+      "degree": "Licence en Génie Logiciel",
+      "school": "Institut Universitaire de Technologie de Douala"
+    },
+    "edu2": {
+      "degree": "Diplôme Universitaire de Technologie en Informatique",
+      "school": "Institut Universitaire de Technologie de Douala"
+    },
+    "edu3": {
+      "degree": "Baccalauréat",
+      "school": "Lycée Bilingue de Niete"
+    }
+  },
+  "projects": {
+    "title": "Projets."
+  },
+  "indomptableShop": {
+    "subtitle": "BOUTIQUE EN LIGNE",
+    "visitLink": "Visiter la boutique",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt odit vel, ratione harum molestias sed cum at id cupiditate tenetur quia ea quaerat dolores assumenda a magnam molestiae repellendus sunt?",
+    "contextTitle": "Contexte",
+    "contextDesc1Title": "Créer une boutique en ligne pour vendre des articles Indomptable",
+    "contextDesc1": "Lorem ipsum dolor sit amet consectetur. Risus hendrerit eleifend accumsan cursus ut. Facilisis eget molestie massa lectus etiam donec cursus amet.",
+    "contextDesc2Title": "Augmenter la Visibilité",
+    "contextDesc2": "Lorem ipsum dolor sit amet consectetur. Risus hendrerit eleifend accumsan cursus ut. Facilisis eget molestie massa lectus etiam donec cursus amet.",
+    "teamsTitle": "Équipes",
+    "squadTitle": "L'Escouade",
+    "dev1": "Ronaldo Mine : Développeur",
+    "dev2": "Marc-Antoine Ngaba : Développeur/Designer",
+    "stackTitle": "Stack Technique",
+    "toolsTitle": "Les outils techniques utilisés",
+    "toolsDesc": "Lorem ipsum dolor sit amet consectetur. Risus hendrerit eleifend accumsan cursus ut. Facilisis eget molestie massa lectus etiam donec cursus amet.",
+    "mockupsTitle": "Maquettes",
+    "mockupHome": "Page d'Accueil",
+    "mockupProduct": "Page Détail Produit",
+    "mockupShop": "Page Boutique",
+    "mockupDesc": "Lorem ipsum dolor sit amet consectetur. Risus hendrerit eleifend accumsan cursus ut. Facilisis eget molestie massa lectus etiam donec cursus amet.",
+    "readyTitle": "Prêt à vivre l'expérience ?",
+    "visitWebsiteBtn": "Visiter le site"
+  },
+  "footer": {
+    "text": "Fait avec ❤️ par Ronaldo MINE.",
+    "talk": "Discutons de vous, de notre prochain partenariat, d'une proposition d'emploi ou autre.",
+    "home": "Accueil",
+    "experience": "Expérience",
+    "about": "À Propos"
+  },
+  "contactButton": "Contactez-moi"
+}

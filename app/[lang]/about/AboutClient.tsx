@@ -1,43 +1,27 @@
 "use client";
 
-import ContentSectionComponent from "@/app/components/ContentSectionComponent";
+import ContentSectionComponent from "../components/ContentSectionComponent";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { galleries, songs } from "./datas";
 import SingleGalleryCardComponent from "./components/SingleGalleryCardComponent";
 import SingleSongComponent from "./components/SingleSongComponent";
 
-export default function About() {
+export default function AboutClient({ dict }: { dict: any }) {
   return (
     <>
-      <ContentSectionComponent title="Who I am ?" heading="ABOUT ME">
+      <ContentSectionComponent title={dict.title} heading={dict.heading}>
         <p className="text-justify mb-4">
-          Commonly known as Ronaldo MINE, I&apos;m a young Cameroonian who&apos;s been
-          passionate about technology ever since I was a child. My academic
-          background has enabled me to specialize in web development solutions,
-          with over 6 years of professional experience to my credit.
+          {dict.para1}
         </p>
         <p className="text-justify mb-4">
-          During my professional career, I was able to adapt easily to the work
-          environment, both with the people and the technologies used, which
-          enabled me to increase my team spirit, develop my perseverance, my
-          analytical mind and thanks to all this I was very quickly able to
-          receive key responsibilities in the development of solutions for these
-          different companies. What&apos;s more, I&apos;ve had to develop applications
-          that have been used by thousands of people in both the professional
-          and personal spheres. My goal is to join a company at the cutting edge
-          of technology and digital innovation, and work together to design
-          quality solutions. This will enable me to gain knowledge and
-          experience around a diverse team focused on excellence, and ultimately
-          build a solid and serene future for myself.
+          {dict.para2}
         </p>
         <p className="text-justify">
-          Personally, I&apos;m passionate about music, photography, soccer and board
-          games. This allows me to find a balance in my life and share pleasant
-          moments with friends and colleagues.
+          {dict.para3}
         </p>
       </ContentSectionComponent>
-      <ContentSectionComponent title="Photography" heading="PASSION">
+      <ContentSectionComponent title={dict.passionTitle} heading={dict.passionHeading}>
         <Swiper
           slidesPerView={1.25}
           grabCursor={true}
@@ -64,8 +48,8 @@ export default function About() {
       </ContentSectionComponent>
 
       <ContentSectionComponent
-        title="Music - 10 favorites songs"
-        heading="FAVORITE HOOBY"
+        title={dict.hobbyTitle}
+        heading={dict.hobbyHeading}
       >
         <section className="flex sm:max-h-96">
           <Image
